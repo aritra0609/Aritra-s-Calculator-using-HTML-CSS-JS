@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Serif:opsz,wght@8..144,100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Caveat', cursive;
+ 
+}
+.button{
+  padding:20px;
+  background:gold;
+  margin:0 3px;
+  border:4px solid;
+  border-radius:9px;
+  cursor:pointer;
+  height:2%;
+  width:60px;
+}
+.row{
+  margin:4px 5px;
+  
+}
+.row input{
+  margin:center;
+  padding:7px 1px;
+  border:2px solid;
+  margin-top:20px;
+  margin-bottom:20px;
+  color:black ;
+  text-align:auto;
+  border-radius:10px;
+  font-size:23px;
+}

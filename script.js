@@ -10,6 +10,13 @@ Array.from(buttons).forEach((button)=>{
       string="";
        document.querySelector('input').value=string;
     }
+      else if(e.target.innerHTML=='X'){
+       string=""
+       let value = document.querySelector('input').value;
+       value = value.slice(0, -1); // Remove the last character
+       document.querySelector('input').value =value;
+       string=value;
+    }  
     else{
       
     
